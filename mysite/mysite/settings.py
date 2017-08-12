@@ -25,13 +25,14 @@ SECRET_KEY = '#v&y_w4_+q5om-&)tg8!+!813gk6cs4-*^(2b68k41$oy#dpcj'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'antmont.pythonanywhere.com']
 
 
 # Application definition
 
 INSTALLED_APPS = [
     'polls.apps.PollsConfig',
+    'blog.apps.BlogConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
